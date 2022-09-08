@@ -24,6 +24,7 @@ Uma aplicação web onde o usuário possa ter acesso as informações de todos o
 
 
 * **História do usuário**
+
 1 - "Sou um grande fã da saga e gostaria de ver todos os personagens que estudam em Hogwarts de determinada casa, gostaria de ver a listagem completa de todos os personagem e fazer ordenamento dos nomes (crescente e descrescente)."
 
 
