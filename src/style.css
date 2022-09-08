@@ -99,7 +99,6 @@ body{
     max-width: 1350px;
     font-size: 14px small;
     font-weight: bold;
-    padding bottom: 3%;
     font-size: 20px;
 }
 .ul{
@@ -179,8 +178,7 @@ button:hover {
 .RedesSociais img{
     width: 30px;
     margin: 1%;
-    margin left: 10%;
-    margin bottom: 10%;
+    margin: 1%;
     border-radius: 35%;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
@@ -188,8 +186,6 @@ button:hover {
 .RedesSociais{
     text-align: right;
     margin-bottom: 10px;
-    padding right: 20%;
-    padding left: 70%;
 }
 .RedesSociais img:hover{
     transform: scale(0.9);

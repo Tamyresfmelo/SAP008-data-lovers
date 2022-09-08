@@ -22,7 +22,9 @@ Uma aplicação web que sane todas as suas dúvidas sobre as caracteristicas da 
 ### Mobile
 ![mobile](src/imagens/proto%20mobile.png)
 ### Baixa fidelidade
-![]()
+![](src/imagens/proto%20bx%201.jpeg)
+
+![](src/imagens/proto%20bx%202.jpeg)
 ## Ferramentas
 
 * **TRELLO -**  Nos ajudou a fazer o gerenciamento das tasks.
@@ -34,3 +36,7 @@ Uma aplicação web que sane todas as suas dúvidas sobre as caracteristicas da 
 * **VISUAL STUDIO CODE -** Usamos este editor de código para implementar o HTML, CSS, JavaScript.
 
 ## Teste de usabilidade
+
+* Adicionamos box model como mensagem de boas vindas ao usuário.
+
+* Devido o banco de dados dos personagens do harry potter ser extenso, com base na pesquisa com possíveis usuários adicionamos o botão de voltar.
