@@ -3,6 +3,10 @@
 Segundo a Forbes 90% dos dados que existem hoje foram gerados durante os últimos dois anos. A cada dia geramos 2.5 milhões de terabytes de dados, uma cifra sem precedentes.
 
 O objetivo deste projeto é converter **dados** em **informações** compreensível para o usuário.
+
+Desenvolvemos uma página contendo informações sobre todos os personagens da saga Harry Potter, com um estilo de wikipédia onde se pode obter informações e curiosidades sobre os personagens.
+
+
 ## História do usuário
 ### Produto
 * **Quem são os usuários?**  
