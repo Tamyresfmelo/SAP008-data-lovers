@@ -6,14 +6,22 @@ O objetivo deste projeto é converter **dados** em **informações** compreensí
 
 Desenvolvemos uma página contendo informações sobre todos os personagens da saga Harry Potter, com um estilo de wikipédia onde se pode obter informações e curiosidades sobre os personagens.
 
+### Sobre Harry Potter
+É uma série de sete romances de fantasia escrita pela autora britânica J. K. Rowling.Conta a história e aventuras de um menino de 11 anos que descobre ser um bruxo e é convidado a estudar na escola de magia e bruxaria de Hogwarts.
+O lançamento do seu primeiro livro foi 26 de junho de 1997, os livros da saga ganharam uma grande popularização mundial, posteriormente tornando a série a best-seller da história, sendo traduzida para 73 idiomas. Os últimos quatro livros consecutivamente foram considerados os mais vendidos da história, sendo que o último livro vendeu cerca de 11 milhões de cópias nos Estados Unidos nas primeiras 24 horas após o seu lançamento.
+
 
 ## História do usuário
 ### Produto
 * **Quem são os usuários?**  
 
-Fãs da saga Harry Potter  
+Fãs da saga Harry Potter. Sabemos que a legião de fã da saga de Harry Potter veem de geração a geração. Hoje não só seus fã da época do lançamento dos seus livros, como também novos fãs das gerações atuais se apaixanoram por esse universo.
 
 * **O que os usuários precisam?**  
+* 
+* História do usuário 1
+
+
 
 Uma aplicação web que sane todas as suas dúvidas sobre as caracteristicas da série. Como por exemplo, nome de personagens, detalhe de livros, porções, feitiços e curiosidades.
 
