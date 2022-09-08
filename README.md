@@ -59,5 +59,5 @@ De acordo com a necessidade do usuário, desenvolvemos uma página onde é lista
 
 * Adicionamos box model como mensagem de boas vindas ao usuário.
 
-* Devido o banco de dados dos personagens do harry potter ser extenso, com base na pesquisa com possíveis usuários adicionamos o botão de voltar.
+* Devido o banco de dados dos personagens do harry potter ser extenso, com base na pesquisa com possíveis usuários, adicionamos o botão de voltar.
 
