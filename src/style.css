@@ -38,12 +38,21 @@
     transform: scale(0.9);
 }
 .ul{
-    display: block;
+    display: inline-block;
     background-color: #F1B415;
     width: 100%;
     max-height: 100%;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+.ulList{
+    display: inline-block;
+    background-color: #F1B415;	
+    flex-direction: column;		
+    max-height: 100%;	
+    align-items: center;	
+    justify-content: center;
+    padding: 0px 50px 50px 70px;
 }
 .mainback{
     display: block;
@@ -88,6 +97,7 @@
     margin: 40px;
     margin-top: 500px;
     text-align: center;
+    justify-content: center;
 }
 button:hover {
     transform: scale(0.9);
@@ -162,6 +172,7 @@ button:hover {
     color: black;
     border-radius: 40px;
     box-shadow: 3px 3px 10px;
+    justify-content: center;
 }
 .card:hover{
     transform: scale(0.9);
