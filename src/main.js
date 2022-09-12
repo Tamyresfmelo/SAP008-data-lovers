@@ -7,16 +7,16 @@ let listCharacterHouseFilter;
 let calcDisplay = document.getElementById('cal');
 const fieldSearch = document.getElementById('buscar');
 let btnTop = document.getElementById('btn-top')
-
+//function criar card characters
 function createCard(character) {
-    return `<card class="card">
-    <br><strong>Name: </strong>${character.name}
-    </br><strong>Book: </strong>${character.books_featured_in}
-    </br><strong>Specie: </strong>${character.species}
-    </br><strong>House: </strong>${character.house}
-    </br><strong>Gender: </strong>${character.gender}</br>
-    </card>`
-  }
+  return `<card class="card">
+  <br><strong>Name: </strong>${character.name}
+  </br><strong>Book: </strong>${character.books_featured_in}
+  </br><strong>Specie: </strong>${character.species}
+  </br><strong>House: </strong>${character.house}
+  </br><strong>Gender: </strong>${character.gender}</br>
+  </card>`
+}
 //printar todos
 function displayCharaList() {
     listCharacterHouseFilter = fullCast
@@ -62,13 +62,11 @@ btnTop.addEventListener('click', function buttonTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 })
-
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      btnTop.style.display = "block";
-    } else {
-      btnTop.style.display = "none";
-    }
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    btnTop.style.display = "block";
+  } else {
+    btnTop.style.display = "none";
   }
+}
