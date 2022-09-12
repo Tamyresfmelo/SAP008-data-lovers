@@ -1,19 +1,16 @@
 import data from "./data/harrypotter/data.js";
-
-const booksPrint = document.getElementById('listBooks');
-const fullBooks = data.books;
-function createBook(books){
-    return `<card class="cardBook">
-    <br><strong>Titulo: </strong>${books.title}
-    </br><strong>Lançamento: </strong>${books.releaseDay}
-    </br><strong>Autor: </strong>${books.author}
-    </br><strong>Descrição: </strong>${books.description}
+const potionsPrint = document.getElementById('listPotions');
+const fullPotions = data.potions;
+function createPotions(potions){
+    return `<card class="cardPotions">
+    <br><strong>Nome: </strong>${potions.name}
+    </br><strong>Descrição: </strong>${potions.description}
     </card>`
 }
-function displayBookList() {
-booksPrint.innerHTML = fullBooks.map(createBook).join('');
+function displayPotionList() {
+potionsPrint.innerHTML = fullPotions.map(createPotions).join('');
 }
-displayBookList()
+displayPotionList()
 let btnTop = document.getElementById('btn-top')
 btnTop.addEventListener('click', function buttonTop() {
     document.body.scrollTop = 0;

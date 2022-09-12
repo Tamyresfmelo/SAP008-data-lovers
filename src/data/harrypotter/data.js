@@ -16170,6 +16170,7 @@ export default {
   books: [
     {
       "id": 1,
+      "img": "https://www.serebii.net/pokemongo/pokemon/001.png",
       "title": "Harry Potter and the Sorcerer's Stone",
       "releaseDay": "June 26, 1997",
       "author": "J. K. Rowling",

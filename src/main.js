@@ -10,11 +10,11 @@ let btnTop = document.getElementById('btn-top')
 //function criar card characters
 function createCard(character) {
   return `<card class="card">
-  <br><strong>Name: </strong>${character.name}
-  </br><strong>Book: </strong>${character.books_featured_in}
-  </br><strong>Specie: </strong>${character.species}
-  </br><strong>House: </strong>${character.house}
-  </br><strong>Gender: </strong>${character.gender}</br>
+  <br><strong>Nome: </strong>${character.name}
+  </br><strong>Livro: </strong>${character.books_featured_in}
+  </br><strong>Spécie: </strong>${character.species}
+  </br><strong>Casa: </strong>${character.house}
+  </br><strong>Gênero: </strong>${character.gender}</br>
   </card>`
 }
 //printar todos
