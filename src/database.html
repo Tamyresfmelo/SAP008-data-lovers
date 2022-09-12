@@ -8,17 +8,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <div id="root">
-    <header class="flex-container">
+  <header class="flex-container">
+    <div>
       <h1 class="titulologo"><img src="imagens/logoharry.png"></h1>
-      <nav>
-        <ul class="navbar">
-          <a href="index.html" class="btnMenu"><img src="imagens/back.png"></a>
-          <a target="_blank" class="btnMenu" href="https://www.hbomax.com/br/pt/harry-potter?countryRedirect=1&utm_id=sa%7c71700000085056423%7c58700007207970536%7cp66001139249&gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x245efopt0KFfdQIZJZjZv_Fs3YZX4yn6ssLbmWykQGbE6iYGeiphgaAqfFEALw_wcB&gclsrc=aw.ds"><img src="imagens/movie.png"></a>
-          <a target="_blanck" class="btnMenu" href="https://www.hogwartslegacy.com/pt-br"><img src="imagens/game.png"></a>
-        </ul>
-      </nav>
   </header>
+  <div class="menu">
+    <ul class="btnMenu">
+      <a href="index.html" class="imgMenu"><img src="imagens/back.png"></a>
+      <a target="_blank" class="imgMenu" href="https://www.hbomax.com/br/pt/harry-potter?countryRedirect=1&utm_id=sa%7c71700000085056423%7c58700007207970536%7cp66001139249&gclid=Cj0KCQjwxveXBhDDARIsAI0Q0x245efopt0KFfdQIZJZjZv_Fs3YZX4yn6ssLbmWykQGbE6iYGeiphgaAqfFEALw_wcB&gclsrc=aw.ds"><img src="imagens/movie.png"></a>
+      <a target="_blanck" class="imgMenu" href="https://www.hogwartslegacy.com/pt-br"><img src="imagens/game.png"></a>
+    </ul>
+  </div>
   <main class="buttonselect" id = "main-Select">
     <select class="select" id="selectFiltros">
       <option disabled selected value="">FILTRAR POR</option>
@@ -39,6 +39,8 @@
   </div>
   <ul id="lista" class="ul">
   </ul>
+  <div class="btntop">
+  <button class="buttonTop" id="btn-top" title="Voltar ao Topo">Voltar ao Topo</button>
   </div>
   <footer class="rodape">
     <p class="developed">&copy; Developed Andresa e Tamyres</p>
