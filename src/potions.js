@@ -2,10 +2,10 @@ import data from "./data/harrypotter/data.js";
 const potionsPrint = document.getElementById('listPotions');
 const fullPotions = data.potions;
 function createPotions(potions){
-    return `<card class="cardPotions">
+    return `<section class="cardPotions">
     <br><strong>Nome: </strong>${potions.name}
     </br><strong>Descrição: </strong>${potions.description}
-    </card>`
+    </section>`
 }
 function displayPotionList() {
 potionsPrint.innerHTML = fullPotions.map(createPotions).join('');

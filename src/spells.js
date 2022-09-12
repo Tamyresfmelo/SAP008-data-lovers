@@ -2,11 +2,11 @@ import data from "./data/harrypotter/data.js";
 const spellsPrint = document.getElementById('listSpells');
 const fullSpells = data.spells;
 function createSpells(spells){
-    return `<card class="cardSpells">
+    return `<section class="cardSpells">
     <br><strong>Name: </strong>${spells.name}
     </br><strong>Tipo de feitiço: </strong>${spells.spell_type}
     </br><strong>Descrição: </strong>${spells.description}
-    </card>`
+    </section>`
 }
 function displaySpellsList() {
 spellsPrint.innerHTML = fullSpells.map(createSpells).join('');

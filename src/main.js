@@ -9,13 +9,13 @@ const fieldSearch = document.getElementById('buscar');
 let btnTop = document.getElementById('btn-top')
 //function criar card characters
 function createCard(character) {
-  return `<card class="card">
+  return `<section class="card">
   <br><strong>Nome: </strong>${character.name}
   </br><strong>Livro: </strong>${character.books_featured_in}
   </br><strong>Spécie: </strong>${character.species}
   </br><strong>Casa: </strong>${character.house}
   </br><strong>Gênero: </strong>${character.gender}</br>
-  </card>`
+  </section>`
 }
 //printar todos
 function displayCharaList() {

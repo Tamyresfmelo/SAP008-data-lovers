@@ -3,12 +3,12 @@ import data from "./data/harrypotter/data.js";
 const booksPrint = document.getElementById('listBooks');
 const fullBooks = data.books;
 function createBook(books){
-    return `<card class="cardBook">
+    return `<section class="cardBook">
     <br><strong>Titulo: </strong>${books.title}
     </br><strong>Lançamento: </strong>${books.releaseDay}
     </br><strong>Autor: </strong>${books.author}
     </br><strong>Descrição: </strong>${books.description}
-    </card>`
+    </section>`
 }
 function displayBookList() {
 booksPrint.innerHTML = fullBooks.map(createBook).join('');

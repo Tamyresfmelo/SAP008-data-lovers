@@ -3,10 +3,10 @@ import data from "./data/harrypotter/data.js";
 const funFactsPrint = document.getElementById('listfunFacts');
 const fullfunFacts = data.funFacts;
 function createfunFact(funFacts){
-    return `<card class="cardfunFacts">
+    return `<section class="cardfunFacts">
     <br><strong>Tipo: </strong>${funFacts.type}
     </br><strong>Curiosidade: </strong>${funFacts.content}
-    </card>`
+    </section>`
 }
 function displayfunFactsList() {
     funFactsPrint.innerHTML = fullfunFacts.map(createfunFact).join('');
