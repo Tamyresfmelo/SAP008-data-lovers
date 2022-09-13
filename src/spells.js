@@ -3,7 +3,7 @@ const spellsPrint = document.getElementById('listSpells');
 const fullSpells = data.spells;
 function createSpells(spells){
     return `<section class="cardSpells">
-    <br><strong>Name: </strong>${spells.name}
+    <br><strong>Nome: </strong>${spells.name}
     </br><strong>Tipo de feitiço: </strong>${spells.spell_type}
     </br><strong>Descrição: </strong>${spells.description}
     </section>`

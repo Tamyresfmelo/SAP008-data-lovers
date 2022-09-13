@@ -4,8 +4,8 @@ const funFactsPrint = document.getElementById('listfunFacts');
 const fullfunFacts = data.funFacts;
 function createfunFact(funFacts){
     return `<section class="cardfunFacts">
-    <br><strong>Tipo: </strong>${funFacts.type}
-    </br><strong>Curiosidade: </strong>${funFacts.content}
+    <br><strong>Sobre: </strong>${funFacts.type}
+    </br><strong>Fatos ou curiosidades: </strong>${funFacts.content}
     </section>`
 }
 function displayfunFactsList() {

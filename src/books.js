@@ -4,7 +4,7 @@ const booksPrint = document.getElementById('listBooks');
 const fullBooks = data.books;
 function createBook(books){
     return `<section class="cardBook">
-    <br><strong>Titulo: </strong>${books.title}
+    <br><strong>${books.title}</strong>
     </br><strong>Lançamento: </strong>${books.releaseDay}
     </br><strong>Autor: </strong>${books.author}
     </br><strong>Descrição: </strong>${books.description}
